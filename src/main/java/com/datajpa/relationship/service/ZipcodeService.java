@@ -1,7 +1,8 @@
 package com.datajpa.relationship.service;
 
-import com.datajpa.relationship.dto.requestDto.ZipcodeRequestDto;
-import com.datajpa.relationship.model.Zipcode;
+import com.datajpa.relationship.db.dto.requestDto.ZipcodeRequestDto;
+import com.datajpa.relationship.db.model.Zipcode;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;

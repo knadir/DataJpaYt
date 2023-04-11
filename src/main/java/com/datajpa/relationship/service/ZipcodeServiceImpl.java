@@ -1,9 +1,10 @@
 package com.datajpa.relationship.service;
 
-import com.datajpa.relationship.dto.requestDto.ZipcodeRequestDto;
-import com.datajpa.relationship.model.City;
-import com.datajpa.relationship.model.Zipcode;
-import com.datajpa.relationship.repository.ZipcodeRepository;
+import com.datajpa.relationship.db.dto.requestDto.ZipcodeRequestDto;
+import com.datajpa.relationship.db.model.City;
+import com.datajpa.relationship.db.model.Zipcode;
+import com.datajpa.relationship.db.repository.ZipcodeRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

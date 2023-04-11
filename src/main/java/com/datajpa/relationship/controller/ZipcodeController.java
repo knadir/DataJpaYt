@@ -1,7 +1,7 @@
 package com.datajpa.relationship.controller;
 
-import com.datajpa.relationship.dto.requestDto.ZipcodeRequestDto;
-import com.datajpa.relationship.model.Zipcode;
+import com.datajpa.relationship.db.dto.requestDto.ZipcodeRequestDto;
+import com.datajpa.relationship.db.model.Zipcode;
 import com.datajpa.relationship.service.ZipcodeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,8 +1,9 @@
 package com.datajpa.relationship.service;
 
-import com.datajpa.relationship.dto.requestDto.CategoryRequestDto;
-import com.datajpa.relationship.dto.responseDto.CategoryResponseDto;
-import com.datajpa.relationship.model.Category;
+import com.datajpa.relationship.db.dto.requestDto.CategoryRequestDto;
+import com.datajpa.relationship.db.dto.responseDto.CategoryResponseDto;
+import com.datajpa.relationship.db.model.Category;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;

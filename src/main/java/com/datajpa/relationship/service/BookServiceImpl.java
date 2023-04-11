@@ -1,12 +1,13 @@
 package com.datajpa.relationship.service;
 
-import com.datajpa.relationship.dto.mapper;
-import com.datajpa.relationship.dto.requestDto.BookRequestDto;
-import com.datajpa.relationship.dto.responseDto.BookResponseDto;
-import com.datajpa.relationship.model.Author;
-import com.datajpa.relationship.model.Book;
-import com.datajpa.relationship.model.Category;
-import com.datajpa.relationship.repository.BookRepository;
+import com.datajpa.relationship.db.dto.mapper;
+import com.datajpa.relationship.db.dto.requestDto.BookRequestDto;
+import com.datajpa.relationship.db.dto.responseDto.BookResponseDto;
+import com.datajpa.relationship.db.model.Author;
+import com.datajpa.relationship.db.model.Book;
+import com.datajpa.relationship.db.model.Category;
+import com.datajpa.relationship.db.repository.BookRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
 package com.datajpa.relationship.controller;
 
-import com.datajpa.relationship.dto.requestDto.BookRequestDto;
-import com.datajpa.relationship.dto.responseDto.BookResponseDto;
+import com.datajpa.relationship.db.dto.requestDto.BookRequestDto;
+import com.datajpa.relationship.db.dto.responseDto.BookResponseDto;
 import com.datajpa.relationship.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

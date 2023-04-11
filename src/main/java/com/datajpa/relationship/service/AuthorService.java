@@ -1,8 +1,9 @@
 package com.datajpa.relationship.service;
 
-import com.datajpa.relationship.dto.requestDto.AuthorRequestDto;
-import com.datajpa.relationship.dto.responseDto.AuthorResponseDto;
-import com.datajpa.relationship.model.Author;
+import com.datajpa.relationship.db.dto.requestDto.AuthorRequestDto;
+import com.datajpa.relationship.db.dto.responseDto.AuthorResponseDto;
+import com.datajpa.relationship.db.model.Author;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;

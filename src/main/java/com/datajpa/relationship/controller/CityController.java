@@ -1,7 +1,7 @@
 package com.datajpa.relationship.controller;
 
-import com.datajpa.relationship.dto.requestDto.CityRequestDto;
-import com.datajpa.relationship.model.City;
+import com.datajpa.relationship.db.dto.requestDto.CityRequestDto;
+import com.datajpa.relationship.db.model.City;
 import com.datajpa.relationship.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

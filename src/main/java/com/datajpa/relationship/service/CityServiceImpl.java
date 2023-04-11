@@ -1,8 +1,9 @@
 package com.datajpa.relationship.service;
 
-import com.datajpa.relationship.dto.requestDto.CityRequestDto;
-import com.datajpa.relationship.model.City;
-import com.datajpa.relationship.repository.CityRepository;
+import com.datajpa.relationship.db.dto.requestDto.CityRequestDto;
+import com.datajpa.relationship.db.model.City;
+import com.datajpa.relationship.db.repository.CityRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

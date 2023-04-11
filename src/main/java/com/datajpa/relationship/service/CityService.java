@@ -1,7 +1,8 @@
 package com.datajpa.relationship.service;
 
-import com.datajpa.relationship.dto.requestDto.CityRequestDto;
-import com.datajpa.relationship.model.City;
+import com.datajpa.relationship.db.dto.requestDto.CityRequestDto;
+import com.datajpa.relationship.db.model.City;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;

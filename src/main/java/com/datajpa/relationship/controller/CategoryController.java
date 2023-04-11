@@ -1,7 +1,7 @@
 package com.datajpa.relationship.controller;
 
-import com.datajpa.relationship.dto.requestDto.CategoryRequestDto;
-import com.datajpa.relationship.dto.responseDto.CategoryResponseDto;
+import com.datajpa.relationship.db.dto.requestDto.CategoryRequestDto;
+import com.datajpa.relationship.db.dto.responseDto.CategoryResponseDto;
 import com.datajpa.relationship.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
